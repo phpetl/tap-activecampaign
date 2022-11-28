@@ -1,0 +1,7 @@
+.vscode/
+composer.lock
+config.json
+data.json
+/vendor/
+.phpunit.*
+/data/*

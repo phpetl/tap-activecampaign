@@ -1,0 +1,24 @@
+{
+    "name": "phpetl/tap-activecampaign",
+    "description": "A source tap for ActiveCampaign, a mailing list system",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "PhpETL\\Tap\\ActiveCampaign\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "email": "chris@ctankersley.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require": {
+        "dragonmantank/activecampaign": "dev-main"
+    }
+}
